@@ -1,0 +1,210 @@
+{
+  "usuarios": [
+    {
+      "nombre": "pedrito",
+      "apellido": "janner",
+      "edad": 25,
+      "id": "XJY4X4k-fy8"
+    },
+    {
+      "nombre": "maria",
+      "apellido": "lopez",
+      "edad": 30,
+      "id": "K8E8W5bUwuc"
+    },
+    {
+      "nombre": "Elon",
+      "apellido": "Mosquito",
+      "edad": 49,
+      "id": "OU3vJ3Bfnvc"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "volvo XC 90",
+      "proveedor": "pedrito S.A",
+      "stock": 10
+    },
+    {
+      "nombre": "Toyota land Cruiser Prado",
+      "proveedor": "Yokomotor S.A",
+      "stock": 5,
+      "id": "vbNWpoY-YCA"
+    },
+    {
+      "nombre": "Toyota corolla",
+      "proveedor": "Toyota S.A",
+      "stock": 15,
+      "id": "4LwI80siH08"
+    },
+    {
+      "nombre": "Subaru WRX",
+      "proveedor": "Yokomotor S.A",
+      "stock": 5,
+      "id": "JmRpd04B3FI"
+    }
+  ],
+  "compañias": [
+    {
+      "nombre": "pedrito S.A",
+      "sector": "automotriz",
+      "ciudad": "Buenos Aires",
+      "id": "ECyNBn6-cWM"
+    },
+    {
+      "nombre": "Yokomotor S.A",
+      "sector": "automotriz",
+      "ciudad": "Tokio",
+      "id": "Kn2y0kCVcSs"
+    },
+    {
+      "nombre": "Toyota S.A",
+      "sector": "automotriz",
+      "ciudad": "Toyota",
+      "id": "xkQ_vO8MOes"
+    }
+  ],
+  "Empleados": [
+    {
+      "nombre": "andres",
+      "cargo": "gerente",
+      "salario": 100000,
+      "id": "un_um-iiGi4"
+    },
+    {
+      "nombre": "pedrito",
+      "cargo": "vendedor",
+      "salario": 50000,
+      "id": "tRhHNx76dy4"
+    },
+    {
+      "nombre": "maria",
+      "cargo": "Asesor de ventas",
+      "salario": 50000,
+      "id": "NGG0D5PGA8Q"
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "juan",
+      "telefono": "123456789",
+      "direccion": "Calle 80 # 123",
+      "id": "mEwRCIeknd0"
+    },
+    {
+      "nombre": "maria",
+      "apellido": "lopez",
+      "telefono": "987654321",
+      "direccion": "Calle 90 # 456",
+      "id": "E89bkq11Fg4"
+    },
+    {
+      "nombre": "pedro",
+      "telefono": "456789123",
+      "direccion": "Calle 100 # 789",
+      "id": "NaJvYNjK8_I"
+    }
+  ],
+  "proveedores": [
+    {
+      "nombre": "pedrito S.A",
+      "telefono": "123456789",
+      "ciudad": "Buenos Aires",
+      "id": "PXYbZiRgIt8"
+    },
+    {
+      "nombre": "Yokomotor S.A",
+      "telefono": "987654321",
+      "ciudad": "Tokio",
+      "id": "KmzMSpACsyQ"
+    },
+    {
+      "nombre": "Toyota S.A",
+      "telefono": "456789123",
+      "ciudad": "Toyota",
+      "id": "NrBU5pTUPUc"
+    }
+  ],
+  "libros": [
+    {
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "anio": 1943,
+      "id": "PzV51n-2P3w"
+    },
+    {
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "anio": 1967,
+      "id": "ZfeeGu-Gfng"
+    },
+    {
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "anio": 1949,
+      "id": "ihrKo3vk3_E"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "Ventas",
+      "nivel": "Básico",
+      "duracion": "3 meses",
+      "id": "JMemK59ToqM"
+    },
+    {
+      "nombre": "Marketing",
+      "nivel": "Intermedio",
+      "duracion": "4 meses",
+      "id": "egZEP4sZxgc"
+    },
+    {
+      "nombre": "Programación",
+      "nivel": "Avanzado",
+      "duracion": "6 meses",
+      "id": "FYtM6X_66ek"
+    }
+  ],
+  "vehiculos": [
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "placa": "XYZ-789",
+      "id": "A4ZFBbvqQeg"
+    },
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "placa": "ABC-123",
+      "id": "T8ITolUkDW8"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Mustang",
+      "placa": "CXX-321",
+      "id": "6oe5fc0FO4M"
+    }
+  ],
+  "pedidos": [
+    {
+      "descripcion": "Entrega inmediata Toyota tundra",
+      "total": 100,
+      "estado": "pendiente",
+      "id": "IqNYY5dM0Zg"
+    },
+    {
+      "descripcion": "Entrega inmediata Toyota corolla",
+      "total": 50,
+      "estado": "entregado",
+      "id": "0_87SnxWjUE"
+    },
+    {
+      "descripcion": "Entrega inmediata Toyota hilux",
+      "total": 80,
+      "estado": "en proceso",
+      "id": "19HG7q5rg9U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
