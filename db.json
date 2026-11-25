@@ -3,18 +3,21 @@
     {
       "nombre": "pedrito",
       "apellido": "janner",
+      "correo": "pedrito.janner@example.com",
       "edad": 25,
       "id": "XJY4X4k-fy8"
     },
     {
       "nombre": "maria",
       "apellido": "lopez",
+      "correo": "maria.lopez@example.com",
       "edad": 30,
       "id": "K8E8W5bUwuc"
     },
     {
       "nombre": "Elon",
       "apellido": "Mosquito",
+      "correo": "elon.mosquito@example.com",
       "edad": 49,
       "id": "OU3vJ3Bfnvc"
     }
@@ -22,36 +25,34 @@
   "productos": [
     {
       "id": "1",
-      "nombre": "volvo XC 90",
+      "nombre": "Mazda CX-5 Touring",
       "proveedor": "pedrito S.A",
+      "precio": 65000,
       "stock": 10
     },
     {
       "nombre": "Toyota land Cruiser Prado",
       "proveedor": "Yokomotor S.A",
+      "precio": 58000,
       "stock": 5,
       "id": "vbNWpoY-YCA"
     },
     {
       "nombre": "Toyota corolla",
       "proveedor": "Toyota S.A",
+      "precio": 28000,
       "stock": 15,
       "id": "4LwI80siH08"
     },
     {
       "nombre": "Subaru WRX",
       "proveedor": "Yokomotor S.A",
+      "precio": 42000,
       "stock": 5,
       "id": "JmRpd04B3FI"
     }
   ],
-  "compañias": [
-    {
-      "nombre": "pedrito S.A",
-      "sector": "automotriz",
-      "ciudad": "Buenos Aires",
-      "id": "ECyNBn6-cWM"
-    },
+  "companias": [
     {
       "nombre": "Yokomotor S.A",
       "sector": "automotriz",
@@ -63,9 +64,15 @@
       "sector": "automotriz",
       "ciudad": "Toyota",
       "id": "xkQ_vO8MOes"
+    },
+    {
+      "nombre": "Somerauto",
+      "sector": "automotriz",
+      "ciudad": "La estrella",
+      "id": "f8CxkU_YwCg"
     }
   ],
-  "Empleados": [
+  "empleados": [
     {
       "nombre": "andres",
       "cargo": "gerente",
@@ -111,18 +118,21 @@
       "nombre": "pedrito S.A",
       "telefono": "123456789",
       "ciudad": "Buenos Aires",
+      "contacto": "Pedro Janner",
       "id": "PXYbZiRgIt8"
     },
     {
       "nombre": "Yokomotor S.A",
       "telefono": "987654321",
       "ciudad": "Tokio",
+      "contacto": "María López",
       "id": "KmzMSpACsyQ"
     },
     {
       "nombre": "Toyota S.A",
       "telefono": "456789123",
       "ciudad": "Toyota",
+      "contacto": "Andrés Gómez",
       "id": "NrBU5pTUPUc"
     }
   ],
